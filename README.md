@@ -34,17 +34,16 @@
 - [架构及目录](http://docs.aiops.cloudwise.com/zh/flyfish/design.html)
 - [用户快速上手](http://docs.aiops.cloudwise.com/zh/flyfish/getting-started/)
 - [开发快速上手](http://docs.aiops.cloudwise.com/zh/flyfish/component/basic.html)
-- [内网部署文档](http://docs.aiops.cloudwise.com/zh/flyfish/deploy.html)
 - [AIOps 社区](https://www.cloudwise.ai/#/datalaker/dashboard)
 
 ## 安装说明
 
 ### 分支说明
 
-| 分支 | 说明     |
-| ---- | -------- |
-| main | 主分支   |
-| dev  | 测试分支 |
+| 分支 | 说明 |
+| ---- | ---- |
+| main | v1.0 |
+| 2.0  | v2.0 |
 
 ### 环境依赖
 
@@ -58,19 +57,18 @@
 
 > 推荐使用 doc 目录内 flyfish 部署文档，后续有关部署流程、学习资料、FAQ 等统一放置 doc 目录中管理。
 
-```
-包含三个服务：
-code_server: web编辑器服务
-solution_platform：应用平台
-visual_component_platform：组件开发平台
+**推荐**
 
-部署文档见：
-doc/基础环境准备篇.md
-doc/code_server部署流程.md
-doc/应用平台部署篇v2.0.md
-doc/组件开发平台部署篇.md
+- [基础环境准备篇.md](./doc/基础环境准备篇.md)
+- [code_server 部署篇](./doc/code_server部署篇.md)
+- [应用平台部署篇 v2.0](./doc/应用平台部署篇v2.0.md)
+- [组件开发平台部署篇](./doc/组件开发平台部署篇.md)
 
-```
+**不推荐**
+
+> ❗ 以下部署流程已废弃，doc 中已更新标准版部署流程，但未包含 Docker 部署、以及本地部署。因此以下部署流程暂作保留，提供参考。推荐您使用 doc 中部署流程。
+
+- [内网部署文档](http://docs.aiops.cloudwise.com/zh/flyfish/deploy.html)
 
 ## 升级流程
 
